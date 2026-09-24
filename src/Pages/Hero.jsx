@@ -3,13 +3,11 @@ import {
     Phone,
     Calendar,
     Clock,
-    Zap,
-    Menu,
     X,
     ShieldCheck,
     Wrench,
     CheckCircle2,
-    ChevronRight
+    
 } from 'lucide-react';
 import Category from "../Pages/Category.jsx"
 import Navber from './Navber.jsx';
@@ -22,20 +20,20 @@ export default function App() {
     return (
         <div className="min-h-screen bg-slate-50 text-slate-800 font-sans">
 
-<Navber />
+            <Navber />
 
             {/* Main Container */}
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-               
+
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-                    
+
                     <div className="space-y-6">
                         <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-50 text-emerald-700 rounded-full text-sm font-semibold border border-emerald-200">
                             <ShieldCheck className="w-4 h-4" /> Licensed & Insured Professionals
                         </div>
 
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight">
-                            ASMAR MUHAMMAD KHAN Electrical & PLAMBER Services 
+                            ASMAR MUHAMMAD KHAN Electrical & PLAMBER Services
                         </h1>
 
                         <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
@@ -149,8 +147,8 @@ export default function App() {
                         </div>
                     </div>
                 </section>
-                 {/* Category  */}
-                    <Category />
+                {/* Category  */}
+                <Category />
             </main>
 
             {/* Booking Service Modal */}
@@ -195,12 +193,12 @@ export default function App() {
                             >
                                 Confirm Booking
                             </button>
-                            
+
                         </form>
                     </div>
 
 
-                   
+
 
                 </div>
             )}
